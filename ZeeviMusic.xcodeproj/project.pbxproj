@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D89EF8731ABCA0210048730D /* Events.m in Sources */ = {isa = PBXBuildFile; fileRef = D89EF8721ABCA0210048730D /* Events.m */; };
 		D8D76EE31ABAA04200311382 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D76EE21ABAA04200311382 /* main.m */; };
 		D8D76EE61ABAA04200311382 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D76EE51ABAA04200311382 /* AppDelegate.m */; };
 		D8D76EE91ABAA04200311382 /* ZeeviMusic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D8D76EE71ABAA04200311382 /* ZeeviMusic.xcdatamodeld */; };
@@ -15,6 +16,8 @@
 		D8D76EF11ABAA04200311382 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8D76EF01ABAA04200311382 /* Images.xcassets */; };
 		D8D76EF41ABAA04200311382 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8D76EF21ABAA04200311382 /* LaunchScreen.xib */; };
 		D8D76F001ABAA04200311382 /* ZeeviMusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D76EFF1ABAA04200311382 /* ZeeviMusicTests.m */; };
+		D8D76F0A1ABAA7A900311382 /* zeevi_3.png in Resources */ = {isa = PBXBuildFile; fileRef = D8D76F091ABAA7A900311382 /* zeevi_3.png */; };
+		D8D76F0C1ABAA7E000311382 /* zeevi_1.png in Resources */ = {isa = PBXBuildFile; fileRef = D8D76F0B1ABAA7E000311382 /* zeevi_1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D89EF8711ABCA0210048730D /* Events.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Events.h; sourceTree = "<group>"; };
+		D89EF8721ABCA0210048730D /* Events.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Events.m; sourceTree = "<group>"; };
 		D8D76EDD1ABAA04200311382 /* ZeeviMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZeeviMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8D76EE11ABAA04200311382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8D76EE21ABAA04200311382 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +47,8 @@
 		D8D76EF91ABAA04200311382 /* ZeeviMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZeeviMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8D76EFE1ABAA04200311382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8D76EFF1ABAA04200311382 /* ZeeviMusicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZeeviMusicTests.m; sourceTree = "<group>"; };
+		D8D76F091ABAA7A900311382 /* zeevi_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zeevi_3.png; path = "../../../../Sites/zeevi-api/public/img/logo/zeevi_3.png"; sourceTree = "<group>"; };
+		D8D76F0B1ABAA7E000311382 /* zeevi_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zeevi_1.png; path = "../../../../Sites/zeevi-api/public/img/logo/zeevi_1.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,9 +96,13 @@
 				D8D76EEB1ABAA04200311382 /* ViewController.m */,
 				D8D76EED1ABAA04200311382 /* Main.storyboard */,
 				D8D76EF01ABAA04200311382 /* Images.xcassets */,
+				D8D76F0B1ABAA7E000311382 /* zeevi_1.png */,
+				D8D76F091ABAA7A900311382 /* zeevi_3.png */,
 				D8D76EF21ABAA04200311382 /* LaunchScreen.xib */,
 				D8D76EE71ABAA04200311382 /* ZeeviMusic.xcdatamodeld */,
 				D8D76EE01ABAA04200311382 /* Supporting Files */,
+				D89EF8711ABCA0210048730D /* Events.h */,
+				D89EF8721ABCA0210048730D /* Events.m */,
 			);
 			path = ZeeviMusic;
 			sourceTree = "<group>";
@@ -202,9 +213,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8D76F0C1ABAA7E000311382 /* zeevi_1.png in Resources */,
 				D8D76EEF1ABAA04200311382 /* Main.storyboard in Resources */,
 				D8D76EF41ABAA04200311382 /* LaunchScreen.xib in Resources */,
 				D8D76EF11ABAA04200311382 /* Images.xcassets in Resources */,
+				D8D76F0A1ABAA7A900311382 /* zeevi_3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +237,7 @@
 			files = (
 				D8D76EE61ABAA04200311382 /* AppDelegate.m in Sources */,
 				D8D76EE91ABAA04200311382 /* ZeeviMusic.xcdatamodeld in Sources */,
+				D89EF8731ABCA0210048730D /* Events.m in Sources */,
 				D8D76EEC1ABAA04200311382 /* ViewController.m in Sources */,
 				D8D76EE31ABAA04200311382 /* main.m in Sources */,
 			);
@@ -416,6 +430,7 @@
 				D8D76F051ABAA04200311382 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D8D76F061ABAA04200311382 /* Build configuration list for PBXNativeTarget "ZeeviMusicTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +439,7 @@
 				D8D76F081ABAA04200311382 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
